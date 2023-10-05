@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      file: changeset/refdata/db.changelog-refdata.yml
+      relativeToChangelogFile: true
+  - include:
+      file: changeset/migrate/db.changelog-migrate.yml
+      relativeToChangelogFile: true

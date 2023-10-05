@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      file: migrate_001.sql
+      relativeToChangelogFile: true
+  - include:
+      file: migrate_001.xml
+      relativeToChangelogFile: true
